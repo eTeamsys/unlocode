@@ -1,14 +1,14 @@
 -
-    ch: ''
+    ch: +
     locode: 'BL GUS'
     name: Gustavia
     namewodiacritics: Gustavia
     subdiv: ''
     function: 1-------
-    status: RL
-    date: '1207'
+    status: AM
+    date: '2107'
     iata: ''
-    coordinates: '1753N 06250W'
+    coordinates: '1754N 06251W'
     remarks: ''
 -
     ch: ''
@@ -18,7 +18,7 @@
     subdiv: ''
     function: 1--45---
     status: AI
-    date: '1207'
+    date: '1901'
     iata: ''
-    coordinates: '1754N 06250W'
+    coordinates: '1754N 06251W'
     remarks: ''

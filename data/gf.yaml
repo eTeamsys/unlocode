@@ -6,31 +6,43 @@
     subdiv: ''
     function: 1--45---
     status: AI
-    date: '9506'
+    date: '1901'
     iata: ''
-    coordinates: ''
+    coordinates: '0456N 05220W'
     remarks: ''
 -
-    ch: ''
+    ch: ¦
     locode: 'GF DDC'
     name: 'Dégrad des Cannes'
     namewodiacritics: 'Degrad des Cannes'
     subdiv: ''
     function: 1-------
     status: RL
-    date: '0212'
+    date: '2107'
     iata: ''
-    coordinates: '0451N 05216W'
+    coordinates: '0452N 05216W'
+    remarks: '@Coo'
+-
+    ch: ''
+    locode: 'GF REM'
+    name: 'Dégrad des Cannes-Pariacabo Pt/Remire'
+    namewodiacritics: 'Degrad des Cannes-Pariacabo Pt/Remire'
+    subdiv: ''
+    function: 1-3--67-
+    status: RL
+    date: '2101'
+    iata: ''
+    coordinates: '0453N 05217W'
     remarks: ''
 -
-    ch: +
+    ch: ''
     locode: 'GF GDE'
     name: Guadeloupe
     namewodiacritics: Guadeloupe
     subdiv: ''
-    function: '--3-----'
+    function: '---4----'
     status: RL
-    date: '1307'
+    date: '1901'
     iata: ''
     coordinates: '0444N 05347W'
     remarks: ''
@@ -40,11 +52,11 @@
     name: Kourou
     namewodiacritics: Kourou
     subdiv: ''
-    function: 1--45---
+    function: 1-345---
     status: AF
-    date: '9506'
+    date: '2101'
     iata: ''
-    coordinates: ''
+    coordinates: '0509N 05238W'
     remarks: ''
 -
     ch: ''
@@ -52,9 +64,9 @@
     name: 'Le Larivot'
     namewodiacritics: 'Le Larivot'
     subdiv: ''
-    function: 0-------
-    status: RL
-    date: '9811'
+    function: '---4----'
+    status: AA
+    date: '1901'
     iata: ''
     coordinates: ''
     remarks: ''
@@ -66,7 +78,7 @@
     subdiv: ''
     function: '--3-----'
     status: RL
-    date: '0901'
+    date: '1901'
     iata: ''
     coordinates: '0501N 05229W'
     remarks: ''
@@ -78,9 +90,9 @@
     subdiv: ''
     function: '---4----'
     status: AI
-    date: '0001'
+    date: '1901'
     iata: ''
-    coordinates: ''
+    coordinates: '0338N 05402W'
     remarks: ''
 -
     ch: ''
@@ -90,9 +102,21 @@
     subdiv: ''
     function: '--3-----'
     status: RL
-    date: '1101'
+    date: '1901'
     iata: ''
     coordinates: '0451N 05220W'
+    remarks: ''
+-
+    ch: +
+    locode: 'GF MON'
+    name: Montsinéry-Tonnegrande
+    namewodiacritics: Montsinery-Tonnegrande
+    subdiv: ''
+    function: '--3-----'
+    status: AA
+    date: '2107'
+    iata: ''
+    coordinates: '0454N 05230W'
     remarks: ''
 -
     ch: ''
@@ -102,21 +126,9 @@
     subdiv: ''
     function: '---4----'
     status: AI
-    date: '0001'
+    date: '1901'
     iata: ''
-    coordinates: ''
-    remarks: ''
--
-    ch: ''
-    locode: 'GF REM'
-    name: Remire
-    namewodiacritics: Remire
-    subdiv: ''
-    function: '-----6--'
-    status: RQ
-    date: '1007'
-    iata: ''
-    coordinates: '0453N 05217W'
+    coordinates: '0419N 05208W'
     remarks: ''
 -
     ch: ''
@@ -133,12 +145,12 @@
 -
     ch: ''
     locode: 'GF SLM'
-    name: 'Saint Laurent du Maroni'
-    namewodiacritics: 'Saint Laurent du Maroni'
+    name: Saint-Laurent-du-Maroni
+    namewodiacritics: Saint-Laurent-du-Maroni
     subdiv: ''
-    function: '--3-----'
-    status: AF
-    date: '1101'
+    function: 1-34----
+    status: AA
+    date: '2101'
     iata: ''
     coordinates: '0530N 05402W'
     remarks: ''
@@ -150,9 +162,9 @@
     subdiv: ''
     function: '---4----'
     status: AI
-    date: '0001'
+    date: '1901'
     iata: ''
-    coordinates: ''
+    coordinates: '0337N 05313W'
     remarks: ''
 -
     ch: ''
@@ -162,7 +174,7 @@
     subdiv: ''
     function: '--3-----'
     status: RL
-    date: '0501'
+    date: '1901'
     iata: ''
     coordinates: '0523N 05257W'
     remarks: ''
