@@ -25,7 +25,7 @@ class Build extends Command
      *
      * @var string
      */
-    protected $url = 'http://www.unece.org/cefact/locode/service/location.html';
+    protected $url = 'https://unece.org/trade/cefact/unlocode-code-list-country-and-territory';
 
     /**
      * Build command constructor
@@ -95,7 +95,8 @@ class Build extends Command
         }
 
         foreach ($countryList as $country) {
-            $url = $this->buildUrl($country['link']);
+            //$url = $this->buildUrl($country['link']);
+            $url = $country['link'];
 
             if ($verbose) {
                 $output->write(sprintf("Fetching code list for %s from %s", $country['code'], $url).PHP_EOL);
@@ -127,7 +128,7 @@ class Build extends Command
     protected function buildCountryList($url, $countries) {
         $crawler = new Crawler($this->getContent($url));
 
-        return $crawler->filter('.contenttable tr')
+        return $crawler->filter('#block-unece-content table tr')
             ->reduce(function (Crawler $node, $i) use ($countries) {
                 if (count($node->filter('td')) == 0) {
                     return false;
@@ -197,6 +198,8 @@ class Build extends Command
         if (strpos($url, '../') === 0) {
             $url = substr($url, 3);
         }
+
+        echo sprintf("%s://%s/%s", $parts['scheme'], $parts['host'], $url);
 
         return sprintf("%s://%s/%s", $parts['scheme'], $parts['host'], $url);
     }
