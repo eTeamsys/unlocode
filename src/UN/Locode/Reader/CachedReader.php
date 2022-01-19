@@ -46,6 +46,9 @@ class CachedReader implements ReaderInterface
         return $this->saveCache($country, $this->reader->read($path, $country));
     }
 
+    /**
+     * {@inheritdoc}
+     */
     public function find($path, $country)
     {
         $country = strtolower($country);
