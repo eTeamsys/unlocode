@@ -12,7 +12,7 @@ class Location {
     protected $ch;
     protected $locode;
     protected $name;
-    protected $nameWoDiacritics;
+    protected $namewodiacritics;
     protected $subDiv;
     protected $function;
     protected $status;
@@ -61,7 +61,7 @@ class Location {
      */
     public function getNameWoDiacritics()
     {
-        return $this->nameWoDiacritics;
+        return $this->namewodiacritics;
     }
 
     /**
