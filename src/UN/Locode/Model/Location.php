@@ -13,7 +13,7 @@ class Location {
     protected $locode;
     protected $name;
     protected $namewodiacritics;
-    protected $subDiv;
+    protected $subdiv;
     protected $function;
     protected $status;
     protected $date;
@@ -69,7 +69,7 @@ class Location {
      */
     public function getSubDiv()
     {
-        return $this->subDiv;
+        return $this->subdiv;
     }
 
     /**
